@@ -321,7 +321,7 @@ declare namespace dymo.label.framework {
          *   data, such as multiple addresses. Use the dymo.label.framework.LabelSetBuilder class to create a LabelSet
          *   or construct XML manually according to [LabelSet.xsd]{@link http://labelwriter.com/software/dls/sdk/LabelSet.xsd}.
          */
-        print(printerName: string, printParamsXml: string, labelSetXml: string): void;
+        print(printerName: string, printParamsXml?: string, labelSetXml?: string): void;
 
         /**
          * Prints a label and runs status checking in a loop
